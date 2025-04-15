@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {/* Desktop Button */}
       <div className="hidden md:block">
-        <button className="bg-[#234394] text-white px-4 py-2 rounded-full">
+        <button className="bg-[#234394] text-white px-4 py-2 rounded-full cursor-pointer">
           Book a Consultation
         </button>
       </div>

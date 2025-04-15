@@ -42,7 +42,7 @@ const Hero = () => {
                             <p className="text-black text-center w-[70%] italic mb-4">
                                 Early intervention, assessments, and therapy for children, teens, and families—nurturing growth through expert, developmentally aligned care.
                             </p>
-                            <button className="mt-auto bg-[#F2DC68] text-black font-semibold px-6 py-2 rounded-full hover:bg-blue-700 transition">
+                            <button className="mt-auto bg-[#F2DC68] text-black font-semibold px-6 py-2 rounded-full cursor-pointer">
                                 Child Services
                             </button>
                         </div>
@@ -53,7 +53,7 @@ const Hero = () => {
                             <p className="text-black text-center w-[70%] italic mb-4">
                                 Confidential, evidence-based therapy and assessments for individuals and couples—designed to support your personal and professional well-being.
                             </p>
-                            <button className="mt-auto bg-[#6BCAED] text-black font-semibold px-6 py-2 rounded-full hover:bg-blue-700 transition">
+                            <button className="mt-auto bg-[#6BCAED] text-black font-semibold px-6 py-2 rounded-full cursor-pointer">
                                 Adult Services
                             </button>
                         </div>
