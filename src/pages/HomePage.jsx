@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import WhyEmbrace from '../components/WhyEmbrace';
 import Ipad from '../components/IpadDisplay';
+import WellBeing from '../components/WellBeingSpaces';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Hero />
             <WhyEmbrace />
             <Ipad />
+            <WellBeing />
         </>
     );
 }
