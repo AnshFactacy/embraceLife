@@ -2,12 +2,14 @@ import React from "react";
 import whyEmbrace1 from "../assets/SVG/whyEmbrace1.svg";
 import whyEmbrace2 from "../assets/SVG/whyEmbrace2.svg";
 import whyEmbrace3 from "../assets/SVG/whyEmbrace3.svg";
+import Ipad from "../assets/SVG/Ipad.svg";
+import Video from "../assets/SVG/VideoPlayer.svg";
 
 const WhyEmbrace = () => {
 
     return (
         <div className="px-4 md:px-8 lg:px-16 xl:px-30 py-[1rem]">
-            <div className="w-[5rem] h-[5rem] bg-[#C499F6] rounded-full xl:translate-y-[14rem] lg:translate-y-[11rem] md:translate-y-[11rem]"></div>
+            <div className="w-[5rem] h-[5rem] bg-[#C499F6] rounded-full xl:translate-y-[14rem] lg:translate-y-[11rem] md:translate-y-[11rem] translate-y-[7rem] translate-x-[-3.5rem] md:translate-x-0"></div>
             <div className="flex flex-col items-center justify-center py-12 xl:py-24">
                 <h1 className="text-center text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-bold">Why eMbrace</h1>
                 <p className="text-center items-center text-xl md:text-xl lg:text-xl xl:text-3xl mt-7 md:w-2/3 w-full italic"> Global expertise, gold-standard assessments, and internationally aligned care—delivered to you online or offline, with warmth and precision.</p>
@@ -46,7 +48,13 @@ const WhyEmbrace = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[5rem] h-[5rem] bg-[#7AE6B9] rounded-full absolute xl:right-[5rem] lg:right-[3rem] md:right-[1rem] right-4 xl:-translate-y-10"></div>
+            <div className="w-[5rem] h-[5rem] bg-[#7AE6B9] rounded-full absolute xl:right-[5rem] lg:right-[3rem] md:right-[1rem] right-0 xl:-translate-y-10 translate-y-[-8rem] md:translate-y-0 z-[-1]"></div>
+            <div className="justify-center items-center hidden md:flex relative">
+                <img src={Ipad} alt="ipad" className="z-[-2]" />
+                <div className="xl:w-20 xl:h-20 w-16 h-16 bg-[#EB1176] rounded-full absolute top-[32%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 flex justify-center items-center">
+                    <img src={Video} alt="video icon" className="xl:w-10 xl:h-10 w-8 h-8 object-contain" />
+                </div>
+            </div>
 
         </div>
     );

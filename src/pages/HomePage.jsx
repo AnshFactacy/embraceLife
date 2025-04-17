@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import WhyEmbrace from '../components/WhyEmbrace';
-import Ipad from '../components/IpadDisplay';
 import WellBeing from '../components/WellBeingSpaces';
 
 const HomePage = () => {
@@ -11,7 +10,6 @@ const HomePage = () => {
             <Navbar />
             <Hero />
             <WhyEmbrace />
-            <Ipad />
             <WellBeing />
         </>
     );

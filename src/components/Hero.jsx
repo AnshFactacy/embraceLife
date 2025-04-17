@@ -33,7 +33,7 @@ const Hero = () => {
                         </span>
                         !
                     </h1>
-                    <p className="text-center items-center text-xl md:text-xl lg:text-xl xl:text-3xl mt-7">
+                    <p className="text-center items-center text-xl md:text-xl lg:text-xl xl:text-3xl mt-7 xl:w-[70%] lg:w-[85%]">
                         Empowering you with accessible, high-quality, evidence-based care - Because every mind deserves to thrive</p>
                     <div className="flex flex-col md:flex-row gap-12 mt-20">
                         <div className="bg-white shadow-2xl rounded-4xl p-6 lg:w-[20rem] xl:w-[30rem] flex flex-col items-center">
