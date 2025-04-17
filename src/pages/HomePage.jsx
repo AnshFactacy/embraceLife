@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import WhyEmbrace from '../components/WhyEmbrace';
 import WellBeing from '../components/WellBeingSpaces';
+import Journey from '../components/YourJourney';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Hero />
             <WhyEmbrace />
             <WellBeing />
+            <Journey />
         </>
     );
 }

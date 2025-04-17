@@ -7,21 +7,41 @@ import Video from "../assets/SVG/VideoPlayer.svg";
 
 const WhyEmbrace = () => {
 
+    const Heading = {
+        title: "Why eMbrace",
+        subtitle: "Global expertise, gold-standard assessments, and internationally aligned care—delivered to you online or offline, with warmth and precision.",
+    }
+
+    const cards = {
+        card1: {
+            heading: "Standardized & Evidence-Based Care",
+            text: "NICE Protocols, Pearson Accredited, I-CAN Approved",
+        },
+        card2: {
+            heading: "Highly Qualified Therapists",
+            text: "RCI-certified, MPhil & PhD professionals providing expert care",
+        },
+        card3: {
+            heading: "Lifespan Care Model",
+            text: "Comprehensive, end-to-end support under one roof for all age groups",
+        }
+    }
+
     return (
         <div className="px-4 md:px-8 lg:px-16 xl:px-30 py-[1rem]">
             <div className="w-[5rem] h-[5rem] bg-[#C499F6] rounded-full xl:translate-y-[14rem] lg:translate-y-[11rem] md:translate-y-[11rem] translate-y-[7rem] translate-x-[-3.5rem] md:translate-x-0"></div>
             <div className="flex flex-col items-center justify-center py-12 xl:py-24">
-                <h1 className="text-center text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-bold">Why eMbrace</h1>
-                <p className="text-center items-center text-xl md:text-xl lg:text-xl xl:text-3xl mt-7 md:w-2/3 w-full italic"> Global expertise, gold-standard assessments, and internationally aligned care—delivered to you online or offline, with warmth and precision.</p>
+                <h1 className="text-center text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-bold">{Heading.title}</h1>
+                <p className="text-center items-center text-xl md:text-xl lg:text-xl xl:text-3xl mt-7 md:w-2/3 w-full italic">{Heading.subtitle}</p>
 
                 {/* {3 cards} */}
                 <div className="flex flex-col md:flex-row gap-10 mt-20">
                     <div className="bg-white border border-[#ADADAD] rounded-4xl p-6 flex flex-col items-center xl:w-[50%] h-auto">
                         <img src={whyEmbrace1} alt="Why Embrace 1" className="w-full mb-4" />
                         <div className="text-start">
-                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">Standardized & Evidence-Based Care</h2>
+                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">{cards.card1.heading}</h2>
                             <p className="lg:text-xl xl:text-2xl text-gray-600">
-                                NICE Protocols, Pearson Accredited, I-CAN Approved
+                                {cards.card1.text}
                             </p>
                         </div>
 
@@ -30,9 +50,9 @@ const WhyEmbrace = () => {
                     <div className="bg-white border border-[#ADADAD] rounded-4xl p-6 flex flex-col items-center xl:w-[50%] h-auto">
                         <img src={whyEmbrace2} alt="Why Embrace 2" className="w-full mb-4" />
                         <div className="text-start">
-                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">Highly Qualified Therapists</h2>
+                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">{cards.card2.heading}</h2>
                             <p className="lg:text-xl xl:text-2xl text-gray-600">
-                                RCI-certified, MPhil & PhD professionals providing expert care
+                                {cards.card2.text}
                             </p>
                         </div>
                     </div>
@@ -40,9 +60,9 @@ const WhyEmbrace = () => {
                     <div className="bg-white border border-[#ADADAD] rounded-4xl p-6 flex flex-col items-center xl:w-[50%] h-auto">
                         <img src={whyEmbrace3} alt="Why Embrace 3" className="w-full mb-4" />
                         <div className="text-start">
-                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">Lifespan Care Model</h2>
+                            <h2 className="lg:text-xl xl:text-2xl font-semibold mb-2">{cards.card3.heading}</h2>
                             <p className="lg:text-xl xl:text-2xl text-gray-600">
-                                Comprehensive, end-to-end support under one roof for all age groups
+                                {cards.card3.text}
                             </p>
                         </div>
                     </div>
